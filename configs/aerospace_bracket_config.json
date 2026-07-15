@@ -1,0 +1,21 @@
+{
+  "aerospace_specifications": {
+    "material": "Ti-6Al-4V_Titanium_Anisotropic",
+    "E_x": 115e9,
+    "E_y": 95e9,
+    "nu_xy": 0.34,
+    "G_xy": 42e9,
+    "yield_strength_mpa": 880.0,
+    "simp_penalty_p": 3.0
+  },
+  "aerospace_constraints": {
+    "target_volume_fraction": 0.30,
+    "stress_penalty_weight_beta": 500.0,
+    "volume_loss_weight_lambda": 250.0
+  },
+  "training_parameters": {
+    "learning_rate": 0.0005,
+    "epochs": 50,
+    "spatial_resolution": 64
+  }
+}
