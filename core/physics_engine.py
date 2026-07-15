@@ -1,3 +1,6 @@
+"""
+Implements the multi-physics autograd core. This ensures that the generated engineering designs honor Navier-Cauchy static equilibrium laws.
+"""
 import torch
 
 def compute_2d_plane_stress_loss(rho, u_x, u_y, boundary_tensor, config):
