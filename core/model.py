@@ -1,3 +1,6 @@
+"""
+Handles the deep feature-extraction pipeline, translating multi-channel spatial structural load masks into structural material layout parameters
+"""
 import torch
 import torch.nn as nn
 
