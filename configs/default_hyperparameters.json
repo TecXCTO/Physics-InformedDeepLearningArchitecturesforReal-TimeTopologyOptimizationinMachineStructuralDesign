@@ -1,0 +1,16 @@
+{
+  "material_properties": {
+    "youngs_modulus_e0": 210e9,
+    "poissons_ratio_nu": 0.3,
+    "simp_penalty_p": 3.0
+  },
+  "optimization_constraints": {
+    "target_volume_fraction": 0.40,
+    "volume_loss_weight_lambda": 100.0
+  },
+  "training_parameters": {
+    "learning_rate": 0.001,
+    "epochs": 20,
+    "spatial_resolution": [64, 64]
+  }
+}
